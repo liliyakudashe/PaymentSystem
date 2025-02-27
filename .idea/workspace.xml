@@ -4,23 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10506abb-84ae-4a84-a682-019933526e7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PaymentSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="10506abb-84ae-4a84-a682-019933526e7e" name="Changes" comment="start">
+      <change afterPath="$PROJECT_DIR$/payment_project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment_project/payments/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment_project/payments/templates/item_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment_project/payments/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/payment_project/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment_project/payment_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/payment_project/payment_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment_project/payments/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/payment_project/payments/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment_project/payments/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/payment_project/payments/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "liliyakudashe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/liliyakudashe/PaymentSystem.git",
+    "accountId": "3271e147-b859-41a4-b3ef-8c10ef9e4387"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -32,8 +58,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.urls.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "v1"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -52,6 +79,19 @@
       <option name="presentableId" value="Default" />
       <updated>1740567985607</updated>
     </task>
+    <task id="LOCAL-00001" summary="start">
+      <option name="closed" value="true" />
+      <created>1740677701405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740677701405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start" />
+    <option name="LAST_COMMIT_MESSAGE" value="start" />
   </component>
 </project>
