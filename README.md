@@ -18,8 +18,10 @@
    git clone https://github.com/ваш-аккаунт/payment-system.git
    cd payment-system
 
-Создайте .env с ключами Stripe:
-touch .env
+**Создайте .env с ключами Stripe:
+   ```bash
+   touch .env
+
 Заполните его:
 
 STRIPE_PUBLIC_KEY_USD=pk_test_XXXXXXXXXXXXXXXXXXXXXXXX
