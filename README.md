@@ -19,7 +19,7 @@
    cd payment-system
 
 **Создайте .env с ключами Stripe:
-   ```bash
+   
    touch .env
 
 Заполните его:
