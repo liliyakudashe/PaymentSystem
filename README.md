@@ -15,13 +15,13 @@
 
 ## 🔧 Установка и запуск (Docker)
 
-### **1. Клонируйте репозиторий**
+### 1. Клонируйте репозиторий**
 ```bash
 git clone https://github.com/ваш-аккаунт/payment-system.git
 cd payment-system
 ```
 
-### **2. Создайте .env с ключами Stripe
+### 2. Создайте .env с ключами Stripe
 ```bash
 touch .env
 ```
@@ -36,22 +36,22 @@ STRIPE_SECRET_KEY_EUR=sk_test_YYYYYYYYYYYYYYYYYYYYYYYY
 
 ⚠️ Важно! Убедитесь, что .env добавлен в .gitignore, чтобы не загружать его в публичный репозиторий.
 
-### **3. Запустите проект в Docker
+### 3. Запустите проект в Docker
 ```bash
 docker-compose up --build
 ```
 
-### **4. Примените миграции
+### 4. Примените миграцию
 ```bash
 docker-compose exec web python manage.py migrate
 ```
 
-### **5. Создайте суперпользователя (для Django Admin)
+### 5. Создайте суперпользователя (для Django Admin)
 ```bash
 docker-compose exec web python manage.py createsuperuser
 ```
 
-### **6. Откройте в браузере
+### 6. Откройте в браузере
 
 Товар: http://127.0.0.1:8000/item/1/
 Админ-панель: http://127.0.0.1:8000/admin/
@@ -59,7 +59,7 @@ docker-compose exec web python manage.py createsuperuser
 
 ## 🛠 API эндпоинты
 
-### **📌 1. Получить товар
+### 📌 1. Получить товар
 ```bash
 GET /item/{id}/
 ```
@@ -74,7 +74,7 @@ GET /item/{id}/
 }
 ```
 
-### **📌 2. Создать Stripe Session
+### 📌 2. Создать Stripe Session
 ```bash
 GET /buy/{id}/
 ```
@@ -89,11 +89,11 @@ GET /buy/{id}/
 
 ## 🔥 Технологии
 
-### **Django 3.2+
-### **Django REST Framework
-### **Stripe API
-### **PostgreSQL
-### **Docker & Docker Compose
+### Django 3.2+
+### Django REST Framework
+### Stripe API
+### PostgreSQL
+### Docker & Docker Compose
 
 
 
